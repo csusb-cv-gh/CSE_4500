@@ -1,9 +1,9 @@
 {
-  "first-name": "Firstname",
-  "last-name": "Lastname",
-  "address": "5500 University Pkwy, San Bernardino, CA 92407",
+  "first-name": "Cristian",
+  "last-name": "Valdez",
+  "address": "69420 doggy rd, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
-  "email": "name@mail.com",
+  "email": "name3@mail.com",
   "introduction": "A introduction of youself ...",
   "experience":[
     {
@@ -17,6 +17,22 @@
       "employer":"CSUSB",
       "period":"March 2018 - 2021",
       "description":"A description of your experience with this job."
+    }
+  ],
+  "skills":[
+    {
+      "skill":"fast typer"
+    },
+    {
+      "skill":"spanish"
+    }
+  ],
+  "intrests":[
+    {
+      "intrest":"gaming"
+    },
+    {
+      "intrest":"traveling"
     }
   ]
 }
