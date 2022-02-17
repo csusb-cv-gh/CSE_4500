@@ -75,17 +75,10 @@
       <div id="interests" class="content-item"> <!-- Skills -->
         <div class="vertical-center">
           <h2>Interests</h2>
-          <?php foreach($json_data['experience'] AS $experience) { ?>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-                  <p><?php echo $experience['description']; ?></p>
-                </div>
-                <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
-                </div>
-              </div>
+          <?php foreach($json_data['skills'] AS $skills) { ?>
+          <h3 class="mb-0"><?php echo $skills['skill']; ?></h3>
           <?php  } ?>
+          <p>...</p>
         </div>
       </div>
       <hr>
@@ -95,3 +88,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
+
