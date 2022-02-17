@@ -3,7 +3,7 @@
   "last-name": "Valdez",
   "address": "69420 doggy rd, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
-  "email": "name3@mail.com",
+  "email": "cv7769@mail.com",
   "introduction": "A introduction of youself ...",
   "experience":[
     {
@@ -29,13 +29,13 @@
       "description":"I speak it very well!"
     }
   ],
-  "intrests":[
+  "interests":[
     {
-      "intrest":"gaming",
+      "intrest":"Gaming",
       "description":"I love OSRS!"
     },
     {
-      "intrest":"traveling",
+      "intrest":"Traveling",
       "description":"I've been to Japan!"
     }
   ]
