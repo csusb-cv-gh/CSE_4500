@@ -27,7 +27,7 @@
     </div>
 
     <div data-bs-offset="0" tabindex="0">
-      <div id="about" class="content-item">
+      <div id="about" class="content-item"> <!-- ABOUT PAGE -->
         <div class="vertical-center">
           <h1><?php echo $json_data['first-name']; ?><span class="text-primary"><?php echo $json_data['last-name']; ?></span></h1>
           <div class="subheading mb-3">
@@ -38,14 +38,14 @@
         </div>
       </div>
       <hr>
-      <div id="education" class="content-item">
+      <div id="education" class="content-item"> <!-- education -->
         <div class="vertical-center">
           <h2>Education</h2>
           <p>...</p>
         </div>
       </div>
       <hr>
-      <div id="experience" class="content-item">
+      <div id="experience" class="content-item"> <!-- experience -->
         <div class="vertical-center">
           <h2>Experience</h2>
           <?php foreach($json_data['experience'] AS $experience) { ?>
@@ -63,6 +63,14 @@
         </div>
       </div>
       <hr>
+      <div id="skills" class="content-item"> <!-- Skills -->
+        <div class="vertical-center">
+          <h2>Skills</h2>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+
     </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
