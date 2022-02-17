@@ -76,7 +76,8 @@
         <div class="vertical-center">
           <h2>Interests</h2>
           <?php foreach($json_data['skills'] AS $skills) { ?>
-            <h3 class="mb-0"><?php echo $skills['skill']; ?></h3>
+          <h3 class="mb-0"><?php echo $skills['skill']; ?></h3>
+          <?php  } ?>
           <p>...</p>
         </div>
       </div>
