@@ -23,6 +23,7 @@
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
           <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#interests">Interests</a>
         </nav>
       </nav>
     </div>
@@ -67,6 +68,13 @@
       <div id="skills" class="content-item"> <!-- Skills -->
         <div class="vertical-center">
           <h2>Skills</h2>
+          <p>...</p>
+        </div>
+      </div>
+      <hr>
+      <div id="interests" class="content-item"> <!-- Skills -->
+        <div class="vertical-center">
+          <h2>Interests</h2>
           <p>...</p>
         </div>
       </div>
