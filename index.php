@@ -74,9 +74,6 @@
                   <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
                   <p><?php echo $experience['description']; ?></p>
                 </div>
-                <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
-                </div>
               </div>
           <?php  } ?>
         </div>
