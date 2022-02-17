@@ -79,14 +79,14 @@
         </div>
       </div>
       <hr>
-      <div id="intrests" class="content-item"> <!-- Intrests -->
+      <div id="interests" class="content-item"> <!-- Interests -->
         <div class="vertical-center">
-          <h2>Intrests</h2>
-          <?php foreach($json_data['intrests'] AS $intrests) { ?>
+          <h2>Interests</h2>
+          <?php foreach($json_data['interests'] AS $interests) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $intrests['intrest']; ?></h3>
-                  <p><?php echo $skills['description']; ?></p>
+                  <h3 class="mb-0"><?php echo $interests['intrest']; ?></h3>
+                  <p><?php echo $interests['description']; ?></p>
                 </div>
               </div>
           <?php  } ?>
