@@ -4,19 +4,19 @@
   "address": "69420 doggy rd, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
   "email": "cv7769@mail.com",
-  "introduction": "A introduction of youself ...",
+  "introduction": "I am a good student, and a hard worker!",
   "experience":[
     {
-      "title":"WEB DEVELOPER",
-      "employer":"CSUSB",
+      "title":"Burger flipper",
+      "employer":"McDOnalds",
       "period":"March 2018 - Present",
-      "description":"A description of your experience with this job."
+      "description":"I flip burgers! It is a fulfilling job"
     },
     {
-      "title":"APPLICATION DEVELOPER",
+      "title":"tutor",
       "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "period":"March 2018 - ongoing",
+      "description":"I tutor children k-8 in math and english."
     }
   ],
   "skills":[
@@ -40,4 +40,5 @@
     }
   ]
 }
+
 
