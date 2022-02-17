@@ -21,10 +21,12 @@
   ],
   "skills":[
     {
-      "skill":"fast typer"
+      "skill":"fast typer",
+      "description":"Can type so fast!"
     },
     {
-      "skill":"spanish"
+      "skill":"speaks spanish",
+      "description":"I speak it very well!"
     }
   ],
   "intrests":[
@@ -36,3 +38,4 @@
     }
   ]
 }
+
