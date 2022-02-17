@@ -68,11 +68,11 @@
       <div id="skills" class="content-item"> <!-- Skills -->
         <div class="vertical-center">
           <h2>Skills</h2>
-          <?php foreach($json_data['experience'] AS $experience) { ?>
+          <?php foreach($json_data['skills'] AS $skills) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-                  <p><?php echo $experience['description']; ?></p>
+                  <h3 class="mb-0"><?php echo $skills['skill']; ?></h3>
+                  <p><?php echo $skills['skill']; ?></p>
                 </div>
               </div>
           <?php  } ?>
