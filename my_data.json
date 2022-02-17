@@ -31,10 +31,12 @@
   ],
   "intrests":[
     {
-      "intrest":"gaming"
+      "intrest":"gaming",
+      "description":"I love OSRS!"
     },
     {
-      "intrest":"traveling"
+      "intrest":"traveling",
+      "description":"I've been to Japan!"
     }
   ]
 }
