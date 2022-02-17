@@ -43,7 +43,7 @@
       <div id="education" class="content-item"> <!-- education -->
         <div class="vertical-center">
           <h2>Education</h2>
-          <p>...</p>
+          <p>Self taught!</p>
         </div>
       </div>
       <hr>
